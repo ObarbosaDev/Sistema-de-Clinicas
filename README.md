@@ -182,5 +182,3 @@ Estudante de Análise e Desenvolvimento de Sistemas
 Desenvolvimento Web | PHP | MySQL | Backend
 
 Projeto desenvolvido com finalidade **acadêmica e prática**, simulando um sistema real de clínica médica.
-
-Basta me dizer o próximo passo.
