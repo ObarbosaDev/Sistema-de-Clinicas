@@ -301,6 +301,14 @@ revert: restaura fluxo de autenticação
 | 🟡 | Testes automatizados e CI |
 | ⚪ | Prontuário, notificações e múltiplas unidades |
 
+## Autor
+
+<p align="center">
+  <strong>Matheus Barbosa</strong><br>
+  Estudante de Análise e Desenvolvimento de Sistemas<br>
+  <a href="https://github.com/ObarbosaDev">@ObarbosaDev</a>
+</p>
+
 ## Licença
 
 Nenhuma licença de uso foi definida. Consulte o proprietário antes de redistribuir ou utilizar comercialmente.
