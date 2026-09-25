@@ -1,0 +1,26 @@
+{
+  "name": "obarbosadev/sistema-de-clinicas",
+  "description": "Sistema modular para controle de médicos, pacientes, consultas e agenda clínica.",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "ext-mysqli": "*"
+  },
+  "suggest": {
+    "ext-mbstring": "Conta caracteres Unicode com precisão nas validações."
+  },
+  "autoload": {
+    "psr-4": {
+      "Clinica\\": "app/"
+    },
+    "files": [
+      "app/Core/helpers.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

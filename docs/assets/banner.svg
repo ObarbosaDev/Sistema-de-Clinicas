@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sistema de Controle Clínico</title>
+  <desc id="desc">Banner azul do projeto com símbolo médico e ilustração de agenda clínica.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071A3D"/>
+      <stop offset="0.55" stop-color="#0E3A78"/>
+      <stop offset="1" stop-color="#1463D8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.3"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1130" cy="20" r="250" fill="#38BDF8" opacity="0.08"/>
+  <circle cx="1230" cy="330" r="170" fill="#5EEAD4" opacity="0.08"/>
+  <circle cx="78" cy="322" r="135" fill="#FFFFFF" opacity="0.035"/>
+
+  <g transform="translate(72 72)">
+    <rect width="88" height="88" rx="24" fill="url(#accent)" filter="url(#shadow)"/>
+    <path d="M36 20h16v16h16v16H52v16H36V52H20V36h16z" fill="#082F49"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="72" y="207" fill="#FFFFFF" font-size="51" font-weight="750" letter-spacing="-1.5">Sistema de Controle Clínico</text>
+    <text x="74" y="250" fill="#C9E3FF" font-size="22" font-weight="400">Gestão modular, segura e objetiva para a rotina da clínica.</text>
+    <g transform="translate(74 282)" font-size="14" font-weight="650">
+      <rect width="116" height="34" rx="17" fill="#FFFFFF" opacity="0.12"/>
+      <text x="58" y="22" fill="#EAF6FF" text-anchor="middle">PHP 8.1+</text>
+      <rect x="128" width="126" height="34" rx="17" fill="#FFFFFF" opacity="0.12"/>
+      <text x="191" y="22" fill="#EAF6FF" text-anchor="middle">MySQL 8+</text>
+      <rect x="266" width="160" height="34" rx="17" fill="#FFFFFF" opacity="0.12"/>
+      <text x="346" y="22" fill="#EAF6FF" text-anchor="middle">Arquitetura modular</text>
+    </g>
+  </g>
+
+  <g transform="translate(930 72)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="24" fill="#FFFFFF"/>
+    <rect width="250" height="58" rx="24" fill="#EAF3FF"/>
+    <path d="M0 34h250v24H0z" fill="#EAF3FF"/>
+    <circle cx="35" cy="29" r="7" fill="#1463D8"/>
+    <circle cx="57" cy="29" r="7" fill="#38BDF8"/>
+    <rect x="25" y="82" width="58" height="48" rx="10" fill="#DDF7F2"/>
+    <rect x="96" y="82" width="58" height="48" rx="10" fill="#EAF3FF"/>
+    <rect x="167" y="82" width="58" height="48" rx="10" fill="#EAF3FF"/>
+    <rect x="25" y="143" width="58" height="48" rx="10" fill="#EAF3FF"/>
+    <rect x="96" y="143" width="58" height="48" rx="10" fill="#DDF7F2"/>
+    <rect x="167" y="143" width="58" height="48" rx="10" fill="#EAF3FF"/>
+    <path d="M45 104l8 8 16-20" fill="none" stroke="#0F9F87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M116 165l8 8 16-20" fill="none" stroke="#0F9F87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
